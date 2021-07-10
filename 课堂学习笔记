@@ -1,0 +1,26 @@
+1.开源硬件的概念：开源硬件指与自由及开放原始码软件相同方式设计的计算机和电子硬件。开源硬件开始考虑对软件以外的领域开源，是开源文化的一部分。
+2.学习开源硬件的优势：学生通过进行开源学习，可以获取代码编译的技能，学习开发软件，自由编程，利用各大开源网站深度学习，可以提高个人素养，拓宽原有技能，可以获取更高的突破，尤其在应聘时，掌握改项技能可以有更大几率获得岗位。
+3.进行开源学习的实用网站：
+git
+www. github. com
+虚拟开发环境:
+www. tinkercad. com
+arduino官网
+www. arduino. cc
+4.网站功能：①githu:除了Git代码仓库托管及基本的Web管理界面以外，它还提供一些方便社会化共同软件开发的功能，包括允许用户追踪其他用户、组织、软件库的动态，对软件代码的改动和bug提出评论等。
+②tinkercad:基于浏览器的3D设计和建模程序，旨在为各种用户（初学者和专家）提供创建项目的方法。
+③Arduino是一款便捷灵活、方便上手的开源电子原型平台。包含硬件（各种型号的Arduino板）和软件（Arduino IDE)。
+5. Arduion代码示例：
+// C＋＋ code
+//
+voId setup ()
+(
+pInMode (7, OUTPUT) ;
+)
+ voId loop ()
+(
+digitalWrite  (7, HIGH) ;
+delay(1000); //Wait for 1000 millionscond(s)
+digitalWrite (7, LOW);
+delay(1000) ; //Wait for 1000 millionsecond(s)
+)
